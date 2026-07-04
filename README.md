@@ -2,119 +2,198 @@
 
 # 🚀 SkillLens AI
 
-### AI Career Intelligence Platform
+### AI-Powered Career Intelligence Platform
 
-<p align="center">
-AI-powered platform that helps students analyze resumes, optimize ATS scores, match jobs, generate career roadmaps, prepare for interviews, and simulate recruiter feedback using Google's Gemini AI.
-</p>
+**Analyze • Optimize • Match • Prepare • Get Hired**
 
 <p align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
-
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red?style=for-the-badge&logo=streamlit)
-
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-orange?style=for-the-badge)
-
-![Gemini AI](https://img.shields.io/badge/Gemini-AI-blueviolet?style=for-the-badge)
-
-![Scikit Learn](https://img.shields.io/badge/scikit--learn-ML-yellow?style=for-the-badge&logo=scikitlearn)
-
-![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)
-
-</p>
+![Gemini AI](https://img.shields.io/badge/Google-Gemini-blueviolet?style=for-the-badge)
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-ML-yellow?style=for-the-badge&logo=scikitlearn)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-3f4f75?style=for-the-badge&logo=plotly)
+![GitHub](https://img.shields.io/badge/GitHub-Open_Source-black?style=for-the-badge&logo=github)
 
 ---
 
-### 💡 Built to solve a real problem
+### 🌐 Live Application
 
-Most resume analyzers only calculate an ATS score.
+### 👉 https://skilllens-ai-final-bw52mpb4ucjv97nc6jpp2c.streamlit.app/
 
-**SkillLens AI** goes much further.
-
-It combines Resume Analysis, ATS Evaluation, Job Matching, Resume Optimization, Career Roadmaps, Interview Preparation, and Recruiter Simulation into one AI-powered platform.
-
-Instead of giving users only a score, it explains **why** the score is low and **how** to improve it.
+</div>
 
 ---
 
-## ✨ Live Demo
+# 📖 About SkillLens AI
 
-(https://skilllens-ai-final-bw52mpb4ucjv97nc6jpp2c.streamlit.app/)
+Finding a job today is no longer just about having skills.
 
----
+Recruiters use **Applicant Tracking Systems (ATS)** to filter resumes before they are even seen by humans.
 
+Thousands of talented students are rejected simply because their resumes are not optimized for modern hiring systems.
 
+**SkillLens AI** was built to solve this problem.
 
-# 📖 Project Story
+Instead of showing only an ATS score, SkillLens AI explains:
 
-Every year millions of students apply for internships and placements.
-
-Most resumes are rejected before a recruiter even reads them.
-
-The biggest challenge isn't a lack of talent—it's the inability to understand what recruiters and ATS systems actually expect.
-
-SkillLens AI was built to bridge this gap.
-
-Instead of simply giving an ATS score, the platform explains:
-
-- Why your resume is weak
+- Why the resume performs poorly
 - Which skills are missing
-- Which projects need improvement
 - Which technologies recruiters expect
-- How likely you are to get shortlisted
-- What you should learn over the next 12 months
+- How closely the resume matches a job description
+- How recruiters would evaluate the profile
+- How to improve the resume using AI
+- What roadmap should be followed for the next 12 months
 
-The goal was to build something that feels like a real AI product instead of another college project.
+The goal was to build a platform that feels like a real AI product rather than a traditional college project.
 
-# 🌟 Key Features
+---
 
-- 📄 Resume Analysis
-- 🤖 AI Resume Review using Gemini
-- 🎯 Hybrid ATS Score
-- 📊 Skill Match Engine
-- 🚀 Resume Optimizer
-- 💼 Job Matching
-- 🛣️ AI Career Roadmap Generator
-- 🎤 Interview Preparation
-- 👨‍💼 Recruiter Dashboard
-- 📈 Interactive Charts
-- 📥 Downloadable Reports
+# ✨ Key Features
 
-- # 🏗️ Project Architecture
+## 📄 Resume Analysis
+
+- Upload PDF Resume
+- Intelligent Resume Parsing
+- Resume Cleaning
+- Automatic Skill Extraction
+
+---
+
+## 🎯 Hybrid ATS Engine
+
+- ATS Score Calculation
+- Keyword Matching
+- Project Evaluation
+- Experience Evaluation
+- Education Evaluation
+- Resume Level Prediction
+
+---
+
+## 🤖 AI Recruiter Review
+
+Powered by **Google Gemini**
+
+Provides:
+
+- ATS Review
+- Recruiter Feedback
+- Missing Skills
+- Resume Improvements
+- Strengths
+- Weaknesses
+- Interview Chances
+- Final Recruiter Verdict
+
+---
+
+## 💼 Job Matching
+
+Compare your resume directly against any Job Description.
+
+Shows
+
+- Match Percentage
+- Missing Skills
+- Skill Coverage
+- Improvement Suggestions
+
+---
+
+## 🚀 Resume Optimizer
+
+Automatically rewrites your resume sections.
+
+Improves
+
+- Professional Summary
+- Projects
+- Skills
+- Experience
+- Resume Quality
+
+---
+
+## 🛣 Career Roadmap Generator
+
+AI generates a personalized learning roadmap including
+
+- Monthly Learning Plan
+- Certifications
+- Projects
+- Interview Preparation
+- Career Advice
+
+---
+
+## 🎤 Interview Preparation
+
+Practice recruiter-style interview questions generated using AI.
+
+---
+
+## 👨‍💼 Recruiter Dashboard
+
+Visual dashboard containing
+
+- ATS Gauge
+- Skill Match Charts
+- Radar Analysis
+- Recruiter Insights
+
+---
+
+# ⚙️ Complete Workflow
 
 ```text
                      Resume PDF
-                           │
-                           ▼
-                Resume Text Extraction
-                           │
-                           ▼
-               Skill Extraction Engine
-                           │
-        ┌──────────────────┼──────────────────┐
-        ▼                  ▼                  ▼
-   ATS Engine        Job Matching      Resume Optimizer
-        │                  │                  │
-        └──────────────┬───┴──────────────────┘
+                          │
+                          ▼
+               Resume Text Extraction
+                          │
+                          ▼
+                 Resume Cleaning
+                          │
+                          ▼
+               Intelligent Skill Extraction
+                          │
+        ┌─────────────────┼─────────────────┐
+        ▼                 ▼                 ▼
+   ATS Evaluation    Job Matching    Resume Optimizer
+        │                 │                 │
+        └──────────────┬────────────────────┘
                        ▼
-                 Gemini AI Review
+             Google Gemini AI Review
+                       │
                        ▼
-             Career Intelligence Report
+             Career Roadmap Generation
+                       │
+                       ▼
+              Interactive Dashboard
+                       │
+                       ▼
+              Download Final Report
 ```
-# 🛠️ Tech Stack
 
-| Category | Technologies |
-|----------|--------------|
-| Language | Python 3.13 |
+---
+
+# 🛠 Technology Stack
+
+| Category | Technology |
+|------------|----------------|
+| Programming Language | Python 3.13 |
 | Frontend | Streamlit |
 | AI Model | Google Gemini 2.5 Flash |
-| Machine Learning | Scikit-learn |
+| Machine Learning | Scikit-Learn |
 | Data Processing | Pandas, NumPy |
 | Resume Parsing | PyPDF2 |
 | Visualization | Plotly |
 | Version Control | Git & GitHub |
 | Deployment | Streamlit Cloud |
+
+---
 
 # 📂 Project Structure
 
@@ -129,14 +208,24 @@ SkillLens-AI/
 ├── components/
 ├── data/
 ├── modules/
+│     ├── ai.py
+│     ├── ats.py
+│     ├── charts.py
+│     ├── parser.py
+│     ├── roadmap.py
+│     └── skills.py
+│
 ├── notebooks/
 ├── pages/
 ├── styles/
 └── utils/
 ```
+
+---
+
 # 🚀 Installation
 
-Clone the repository
+Clone Repository
 
 ```bash
 git clone https://github.com/krishmittal2305/SkillLens-AI-Final.git
@@ -159,12 +248,122 @@ Run the application
 ```bash
 streamlit run app.py
 ```
+
+---
+
 # 🔐 Environment Variables
 
-Create a `.streamlit/secrets.toml` file or configure the following environment variable:
+Create
 
-```toml
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
+```text
+.streamlit/secrets.toml
 ```
 
-The API key is **not stored inside the source code** for security reasons.
+Add
+
+```toml
+GEMINI_API_KEY="YOUR_API_KEY"
+```
+
+OR
+
+Use Environment Variable
+
+```text
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+---
+
+# 📊 What Makes SkillLens AI Different?
+
+✅ Hybrid ATS Scoring
+
+✅ Google Gemini Integration
+
+✅ Recruiter Style Feedback
+
+✅ Resume Optimization
+
+✅ Career Roadmap Generation
+
+✅ Job Description Matching
+
+✅ Interactive Analytics
+
+✅ Modern UI
+
+✅ Secure API Key Handling
+
+✅ Production Ready Architecture
+
+---
+
+# 🚀 Future Improvements
+
+- LinkedIn Profile Analysis
+- Resume Ranking
+- AI Mock Interviews
+- Multi Language Support
+- Resume Version History
+- Team Collaboration
+- Recruiter Portal
+- Company-wise ATS Templates
+- AI Cover Letter Generator
+- Portfolio Analyzer
+
+---
+
+# 💡 Challenges Solved
+
+✔ Resume Parsing
+
+✔ ATS Evaluation
+
+✔ Skill Detection
+
+✔ Resume Optimization
+
+✔ AI Feedback
+
+✔ Career Planning
+
+✔ Recruiter Simulation
+
+---
+
+# 👨‍💻 Author
+
+## Krish Mittal
+
+B.Tech Computer Science Engineering
+
+Passionate about
+
+- Machine Learning
+- Artificial Intelligence
+- Data Science
+- Python Development
+- Building Real-World AI Applications
+
+---
+
+# ⭐ Support
+
+If you found this project useful,
+
+please consider giving it a ⭐ on GitHub.
+
+It motivates me to build more open-source AI projects.
+
+---
+
+<div align="center">
+
+### 🚀 SkillLens AI
+
+**Helping students build resumes that recruiters actually notice.**
+
+Made with ❤️ using Python, Streamlit and Google Gemini AI
+
+</div>
