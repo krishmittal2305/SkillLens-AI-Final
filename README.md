@@ -106,3 +106,69 @@ The goal was to build something that feels like a real AI product instead of ano
                        ▼
              Career Intelligence Report
 ```
+# 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Language | Python 3.13 |
+| Frontend | Streamlit |
+| AI Model | Google Gemini 2.5 Flash |
+| Machine Learning | Scikit-learn |
+| Data Processing | Pandas, NumPy |
+| Resume Parsing | PyPDF2 |
+| Visualization | Plotly |
+| Version Control | Git & GitHub |
+| Deployment | Streamlit Cloud |
+
+# 📂 Project Structure
+
+```text
+SkillLens-AI/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── assets/
+├── components/
+├── data/
+├── modules/
+├── notebooks/
+├── pages/
+├── styles/
+└── utils/
+```
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/krishmittal2305/SkillLens-AI-Final.git
+```
+
+Move into project
+
+```bash
+cd SkillLens-AI
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
+streamlit run app.py
+```
+# 🔐 Environment Variables
+
+Create a `.streamlit/secrets.toml` file or configure the following environment variable:
+
+```toml
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
+```
+
+The API key is **not stored inside the source code** for security reasons.
