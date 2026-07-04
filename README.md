@@ -40,7 +40,7 @@ Instead of giving users only a score, it explains **why** the score is low and *
 
 ## ✨ Live Demo
 
-🚀 Coming Soon (Streamlit Cloud)
+(https://skilllens-ai-final-bw52mpb4ucjv97nc6jpp2c.streamlit.app/)
 
 ---
 
