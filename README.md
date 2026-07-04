@@ -44,11 +44,7 @@ Instead of giving users only a score, it explains **why** the score is low and *
 
 ---
 
-## 🖼️ Application Preview
 
-![Home](assets/screenshots/home.png)
-
-</div>
 
 # 📖 Project Story
 
